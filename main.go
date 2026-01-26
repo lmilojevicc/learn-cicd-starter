@@ -16,9 +16,6 @@ import (
 	"github.com/bootdotdev/learn-cicd-starter/internal/database"
 )
 
-func unused() {
-}
-
 type apiConfig struct {
 	DB *database.Queries
 }
